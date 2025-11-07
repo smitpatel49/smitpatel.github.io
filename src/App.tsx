@@ -206,7 +206,7 @@ const Hero=()=>(
       <p className='text-[15px] md:text-[17px] leading-relaxed opacity-90 text-just'>I build reliable, production-grade ML systems end-to-end — from data pipelines and modeling to deployment, monitoring, and product impact. Target roles: AI/ML Engineer and Data Scientist. Work spans forecasting & simulation, computer vision, NLP, and decisioning with a strong MLOps backbone.</p>
       <div className='flex gap-3 justify-center flex-wrap'>
         <a href='#projects'><Button className='group'>View Projects <ArrowRight className='w-5 h-5 ml-2 group-hover:translate-x-0.5 transition-transform'/></Button></a>
-        <a href='/resume.pdf' target='_blank' rel='noreferrer'><Button variant='secondary'>Download Resume</Button></a>
+        <a href='/Smit-Resume.pdf' target='_blank' rel='noreferrer'><Button variant='secondary'>Download Resume</Button></a>
         <a href={'mailto:'+EMAIL}><Button variant='outline'>Email me</Button></a>
       </div>
       <div className='flex gap-2 flex-wrap mt-2 justify-center'>{['NLP','Time-Series','MLOps','Real-time Inference','Dashboards'].map((t,i)=>(<Pill key={i}>{t}</Pill>))}</div>
